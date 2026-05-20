@@ -1,193 +1,130 @@
-body {
-  margin: 0;
-  height: 100vh;
-  background: #ffffff;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(82, 123, 168, 1) 100%
-  );
-}
+@import url('https://fonts.googleapis.com/css2?family=Netflix+Sans:wght@400;700&family=Bebas+Neue&display=swap');
 
-.navbar {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  padding: 25px 50px;
-  width: fit-content;
-  margin: 30px auto;
-}
-
-.navbar a {
-  text-decoration: none;
-}
-
-.card {
-  width: 178px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 200px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(5px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition:
-    transform 0.2s,
-    background-color 0.2s;
-  cursor: pointer;
-  margin: 180px;
-  position: relative;
-  top: -150px;
-}
-
-.card h2 {
-  color: #ffffff;
-  font-size: 28px;
-  font-family: Arial, sans-serif;
-  margin: 0;
-}
-
-.navbar a:hover .card {
-  transform: scale(1.05);
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.voltar {
-  position: absolute;
-  top: -5px;
-  left: 30px;
-  font-size: 20px;
-  z-index: 10;
-  transition: transform 0.2s;
-}
-
-.voltar:hover {
-  transform: scale(1.1) translateX(-3px);
-}
-
-.voltar a {
-  text-decoration: none;
-}
-
-.voltar h1 {
-  color: white;
-  background: #000000;
-  background: radial-gradient(circle, rgb(165, 165, 165) 0%, rgb(0, 0, 0) 100%);
-
-  background: #ffffff;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(82, 123, 168, 1) 100%
-  );
-
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-img {
-  border-radius: 20px;
-  width: 600px;
-  transition: 0.3s;
-}
-
-img:hover {
-  transform: scale(1.13);
-}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
 body {
-  margin: 0;
-  height: 100vh;
-  background: #ffffff;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(82, 123, 168, 1) 100%
-  );
-}
-
-.navbar {
+background-image: url(https://i1-c.pinimg.com/1200x/ed/97/c5/ed97c5c322af49c61f03eaf623fdfba9.jpg);
+background-size: cover;
   display: flex;
-  justify-content: center;
-  gap: 60px;
-  padding: 25px 50px;
-  width: fit-content;
-  margin: 30px auto;
-}
-
-.navbar a {
-  text-decoration: none;
-}
-
-.card {
-  width: 178px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 200px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(5px);
-  display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  transition:
-    transform 0.2s,
-    background-color 0.2s;
-  cursor: pointer;
-  margin: 180px;
-  position: relative;
-  top: -150px;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow: hidden;
 }
+    h1 {
+      color: #ffffff;
+      font-size: 3.5rem;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      margin-bottom: 48px;
+       text-shadow: 0 0 10px rgba(17, 17, 17, 0.4);
+    }
 
-.card h2 {
-  color: #ffffff;
-  font-size: 28px;
-  font-family: Arial, sans-serif;
-  margin: 0;
-}
+    .perfis {
+      display: flex;
+      gap: 68px;
+      align-items: center;
+    }
 
-.navbar a:hover .card {
+    .perfil {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 39px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+  
+    .perfil img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 40px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+    }
+
+    .perfil:hover img {
   transform: scale(1.05);
-  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 15px rgb(0, 0, 0); 
+  filter: brightness(1.15); 
 }
 
-.voltar {
+.perfil:hover span {
+  color: 
+  #fffffffd;
+}
+
+    .perfil span {
+      color: #ffffff;
+      font-size: 1rem;
+      letter-spacing: 0.04em;
+      transition: color 0.2s ease, text-shadow 0.2s ease;
+    }
+
+    .perfil:hover span {
+      color: #383737;
+      text-shadow: 0 0 10px rgba(17, 17, 17, 0.4);
+    }
+
+    .avatar-placeholder {
+      width: 160px;
+      height: 160px;
+      border-radius: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+      user-select: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .perfil:hover .avatar-placeholder {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(106, 101, 101, 0.3);
+    }
+
+   
+    .adicionar {
+      width: 160px;
+      height: 160px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+
+    .perfil:hover .adicionar {
+      transform: scale(1.07);
+      box-shadow: 0 0 20px rgb(0, 0, 0);
+    }
+
+.gerenciar {
+  
   position: absolute;
-  top: -5px;
-  left: 30px;
-  font-size: 20px;
-  z-index: 10;
-  transition: transform 0.2s;
+  bottom: 15vh;      
+  left: 50%;         
+  transform: translateX(-50%); 
+  padding: 12px 28px;
+  border: 1px solid #525252;
+  background: transparent;
+  color: #575757;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
 }
 
-.voltar:hover {
-  transform: scale(1.1) translateX(-3px);
-}
-
-.voltar a {
-  text-decoration: none;
-}
-
-.voltar h1 {
-  color: white;
-  background: #000000;
-  background: radial-gradient(circle, rgb(165, 165, 165) 0%, rgb(0, 0, 0) 100%);
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-img {
-  border-radius: 20px;
-  width: 600px;
-  transition: 0.3s;
-}
-
-img:hover {
-  transform: scale(1.13);
+.gerenciar:hover {
+  border-color: #000000;
+  color: #474747;
 }
