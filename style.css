@@ -1,10 +1,12 @@
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
   margin: 0;
   height: 100vh;
   background: #ffffff;
-  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(82, 123, 168, 1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(82, 123, 168, 1) 100%
+  );
 }
 
 .navbar {
@@ -17,45 +19,46 @@ body {
 }
 
 .navbar a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .card {
   width: 178px;
-  height: 40px;  
-  background-color: rgba(255, 255, 255, 0.3); 
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 200px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 0.2s, background-color 0.2s;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
   cursor: pointer;
   margin: 180px;
   position: relative;
-  top: -150px
-  
+  top: -150px;
 }
 
 .card h2 {
   color: #ffffff;
-  font-size: 28px; 
+  font-size: 28px;
   font-family: Arial, sans-serif;
   margin: 0;
 }
 
 .navbar a:hover .card {
-  transform: scale(1.05); 
-  background-color: rgba(255, 255, 255, 0.5); 
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .voltar {
-  position: absolute;     
-  top: -5px;              
-  left: 30px;        
-  font-size: 20px;         
-  z-index: 10;       
+  position: absolute;
+  top: -5px;
+  left: 30px;
+  font-size: 20px;
+  z-index: 10;
   transition: transform 0.2s;
 }
 
@@ -69,39 +72,42 @@ body {
 
 .voltar h1 {
   color: white;
-=======
   background: #000000;
-background: radial-gradient(circle,rgb(165, 165, 165)  0%, rgb(0, 0, 0) 100%);
-=======
+  background: radial-gradient(circle, rgb(165, 165, 165) 0%, rgb(0, 0, 0) 100%);
+
   background: #ffffff;
-background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(82, 123, 168, 1) 100%);
->>>>>>> f1d3423 (Termino)
-    margin: 0;
-    height: 100vh;     
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(82, 123, 168, 1) 100%
+  );
+
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
-    border-radius: 20px;
-    width: 600px;
-    transition: 0.3s;
+  border-radius: 20px;
+  width: 600px;
+  transition: 0.3s;
 }
 
 img:hover {
-    transform: scale(1.13);
-<<<<<<< HEAD
->>>>>>> f843000 (atualização)
-=======
->>>>>>> f1d3423 (Termino)
+  transform: scale(1.13);
 }
 
 body {
   margin: 0;
   height: 100vh;
   background: #ffffff;
-  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(82, 123, 168, 1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(82, 123, 168, 1) 100%
+  );
 }
 
 .navbar {
@@ -114,45 +120,46 @@ body {
 }
 
 .navbar a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .card {
   width: 178px;
-  height: 40px;  
-  background-color: rgba(255, 255, 255, 0.3); 
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 200px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 0.2s, background-color 0.2s;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
   cursor: pointer;
   margin: 180px;
   position: relative;
-  top: -150px
-  
+  top: -150px;
 }
 
 .card h2 {
   color: #ffffff;
-  font-size: 28px; 
+  font-size: 28px;
   font-family: Arial, sans-serif;
   margin: 0;
 }
 
 .navbar a:hover .card {
-  transform: scale(1.05); 
-  background-color: rgba(255, 255, 255, 0.5); 
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .voltar {
-  position: absolute;     
-  top: -5px;              
-  left: 30px;        
-  font-size: 20px;         
-  z-index: 10;       
+  position: absolute;
+  top: -5px;
+  left: 30px;
+  font-size: 20px;
+  z-index: 10;
   transition: transform 0.2s;
 }
 
@@ -166,23 +173,21 @@ body {
 
 .voltar h1 {
   color: white;
-=======
   background: #000000;
-background: radial-gradient(circle,rgb(165, 165, 165)  0%, rgb(0, 0, 0) 100%);
-    margin: 0;
-    height: 100vh;     
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+  background: radial-gradient(circle, rgb(165, 165, 165) 0%, rgb(0, 0, 0) 100%);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
-    border-radius: 20px;
-    width: 600px;
-    transition: 0.3s;
+  border-radius: 20px;
+  width: 600px;
+  transition: 0.3s;
 }
 
 img:hover {
-    transform: scale(1.13);
-
+  transform: scale(1.13);
 }

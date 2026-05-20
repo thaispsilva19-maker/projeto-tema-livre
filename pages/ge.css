@@ -1,21 +1,22 @@
 body {
   margin: 0;
   height: 100vh;
-<<<<<<< HEAD
-  
   display: flex;
   flex-direction: column;
   align-items: center;
 
-    background-image: url(https://i.pinimg.com/736x/15/b9/78/15b9781a9e7ceb39041f40d667d675a9.jpg);
-background-size:cover ;
+  background-image: url(https://i.pinimg.com/736x/15/b9/78/15b9781a9e7ceb39041f40d667d675a9.jpg);
+  background-size: cover;
   min-height: 100vh;
-
-  font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
   color: white;
+  background: #ffffff;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(82, 123, 168, 1) 100%
+  );
 }
-
 
 .navbar {
   display: flex;
@@ -24,11 +25,7 @@ background-size:cover ;
   padding: 25px 50px;
   width: fit-content;
   margin: 30px auto;
-  transform: translateY(-40px)
-}
-=======
-  background: #ffffff;
-  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(82, 123, 168, 1) 100%);
+  transform: translateY(-40px);
 }
 
 .navbar {
@@ -40,99 +37,105 @@ background-size:cover ;
   margin: 30px auto;
 }
 
->>>>>>> f1d3423 (Termino)
 .navbar a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .card {
   width: 178px;
-  height: 40px;  
-  background-color: rgba(255, 255, 255, 0.3); 
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 200px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 0.2s, background-color 0.2s;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
   cursor: pointer;
-<<<<<<< HEAD
+
   margin: 0;
-  }
+}
 
 .card h2 {
   color: rgb(255, 255, 255);
-=======
+
   margin: 180px;
   position: relative;
-  top: -150px
-  
+  top: -150px;
 }
 
 .card h2 {
   color: #ffffff;
->>>>>>> f1d3423 (Termino)
-  font-size: 28px; 
+  font-size: 28px;
   font-family: Arial, sans-serif;
   margin: 0;
 }
 
 .navbar a:hover .card {
-  transform: scale(1.05); 
-  background-color: rgba(255, 255, 255, 0.5); 
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-<<<<<<< HEAD
 .galeria-horizontal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 38px;
-    padding: 40px;
-    max-width: 90%;
-    margin: 0 auto;
-    border-radius: 30px;
-    background: rgba(255, 255, 255, 0.053);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.127);
-    margin-bottom: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
+  padding: 40px;
+  max-width: 90%;
+  margin: 0 auto;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.053);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.127);
+  margin-bottom: 40px;
 }
 
 .galeria-horizontal img {
-    width: 200px;
-    height: 330px;
-    object-fit: cover;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.325);
-    filter: brightness(0.80) saturate(1.4);
-    transition: transform 0.4s ease, filter 0.4s ease, box-shadow 0.4s ease;
-    animation: slideUp 1s ease-out backwards;
+  width: 200px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.325);
+  filter: brightness(0.8) saturate(1.4);
+  transition:
+    transform 0.4s ease,
+    filter 0.4s ease,
+    box-shadow 0.4s ease;
+  animation: slideUp 1s ease-out backwards;
 }
-
 
 .galeria-horizontal img:hover {
-    transform: translateY(-15px) scale(1.05);
-    filter: brightness(1.1) saturate(1.5);
-    box-shadow: 0 0 20px rgb(132, 155, 255), 
-                0 0 50px rgba(48, 166, 166, 0.3);
-    cursor: pointer;
+  transform: translateY(-15px) scale(1.05);
+  filter: brightness(1.1) saturate(1.5);
+  box-shadow:
+    0 0 20px rgb(132, 155, 255),
+    0 0 50px rgba(48, 166, 166, 0.3);
+  cursor: pointer;
 }
 
+.galeria-horizontal img:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.galeria-horizontal img:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.galeria-horizontal img:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.galeria-horizontal img:nth-child(4) {
+  animation-delay: 0.8s;
+}
 
-.galeria-horizontal img:nth-child(1) { animation-delay: 0.2s; }
-.galeria-horizontal img:nth-child(2) { animation-delay: 0.4s; }
-.galeria-horizontal img:nth-child(3) { animation-delay: 0.6s; }
-.galeria-horizontal img:nth-child(4) { animation-delay: 0.8s; }
-
-=======
->>>>>>> f1d3423 (Termino)
 .voltar {
-  position: absolute;     
-  top: -5px;              
-  left: 30px;        
-  font-size: 20px;         
-  z-index: 10;       
+  position: absolute;
+  top: -5px;
+  left: 30px;
+  font-size: 20px;
+  z-index: 10;
   transition: transform 0.2s;
 }
 
