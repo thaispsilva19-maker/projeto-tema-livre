@@ -1,0 +1,192 @@
+body {
+  background-color: #020617;
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+  padding: 20px;
+}
+
+.botao-voltar {
+  text-decoration: none;
+
+  background-color: #2563eb;
+
+  color: white;
+
+  padding: 12px 24px;
+
+  border-radius: 8px;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.botao-voltar:hover {
+  background-color: #1d4ed8;
+}
+
+.detalhes {
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+
+.titulo-principal {
+  text-align: center;
+}
+
+.titulo-principal h1 {
+  font-size: 3rem;
+
+  margin-bottom: 10px;
+}
+
+.titulo-principal p {
+  color: #94a3b8;
+
+  font-size: 1.2rem;
+}
+
+.top3 {
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+}
+
+.top3 h2 {
+  text-align: center;
+
+  font-size: 2.3rem;
+}
+
+.card-filme {
+  display: flex;
+
+  gap: 25px;
+
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  border: 2px solid #2563eb;
+
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.3);
+
+  transition: 0.3s;
+}
+
+.card-filme:hover {
+  transform: scale(1.02);
+}
+
+.card-filme img {
+  width: 220px;
+
+  border-radius: 15px;
+
+  transition: 0.3s;
+}
+
+.card-filme img:hover {
+  transform: scale(1.05);
+}
+
+.conteudo-card {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.conteudo-card h1 {
+  margin: 0;
+
+  color: #f8fafc;
+}
+
+.conteudo-card p {
+  color: #cbd5e1;
+
+  line-height: 1.6;
+}
+
+.outros-filmes {
+  background: rgba(255, 255, 255, 0.05);
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  border: 2px solid #2563eb;
+}
+
+.outros-filmes h2 {
+  margin-top: 0;
+}
+
+.outros-filmes ul {
+  padding-left: 20px;
+}
+
+.outros-filmes li {
+  margin-bottom: 10px;
+
+  color: #cbd5e1;
+}
+
+.trailer-box {
+  background: rgba(255, 255, 255, 0.05);
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  border: 2px solid #2563eb;
+}
+
+.trailer-box h2 {
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+.video {
+  display: flex;
+
+  justify-content: center;
+}
+
+video {
+  border-radius: 15px;
+
+  max-width: 100%;
+}
+
+.footer {
+  text-align: center;
+
+  color: #94a3b8;
+
+  margin-top: 20px;
+}
+
+.Trailer {
+  text-align: center;
+  font-size: 30px;
+}
