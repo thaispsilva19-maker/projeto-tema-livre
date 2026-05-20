@@ -1,0 +1,63 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1673526759327-54f1f5b27322?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8);
+  background-size: cover;
+  padding: 20px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.catalogo-btn a, .top-btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.catalogo-btn a:hover, .top-btn a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Arial Black', Arial, sans-serif;
+  margin-top: 40px;
+}
+
+h2 {
+  color: white;
+}
+
+.OIluminado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.filmesdoisetres {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1d1d1d71;
+  color: #888;
+  margin-top: 40px;
+}
