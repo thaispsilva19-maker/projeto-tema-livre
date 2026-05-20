@@ -36,11 +36,14 @@ img {
 }
 .imgsum,
 .imgsdois {
+  background-color: rgba(4, 24, 202, 0.298);
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 20px;
+  width: 700px;
+  margin: 0 auto
 }
 .imgsum img,
 .imgsdois img {
