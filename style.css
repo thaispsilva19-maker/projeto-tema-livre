@@ -1,5 +1,6 @@
 body {
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 0;
   height: 100vh;
   background: #ffffff;
@@ -71,6 +72,10 @@ body {
 =======
   background: #000000;
 background: radial-gradient(circle,rgb(165, 165, 165)  0%, rgb(0, 0, 0) 100%);
+=======
+  background: #ffffff;
+background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(82, 123, 168, 1) 100%);
+>>>>>>> f1d3423 (Termino)
     margin: 0;
     height: 100vh;     
     display: flex;
@@ -86,5 +91,8 @@ img {
 
 img:hover {
     transform: scale(1.13);
+<<<<<<< HEAD
 >>>>>>> f843000 (atualização)
+=======
+>>>>>>> f1d3423 (Termino)
 }
