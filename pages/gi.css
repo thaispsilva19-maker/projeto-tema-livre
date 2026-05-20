@@ -1,82 +1,192 @@
 body {
   background-color: #020617;
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+
   color: white;
-  font-family: sans-serif;
+
+  font-family: Arial, Helvetica, sans-serif;
+
   margin: 0;
   padding: 20px;
 }
 
 .botao-voltar {
   text-decoration: none;
-  color: #3b82f6;
-  font-size: 1.2rem;
-  font-weight: bold;
-  display: inline-block;
-  margin-bottom: 20px;
-  background-color: #007bff;
+
+  background-color: #2563eb;
+
   color: white;
-  border: none;
+
   padding: 12px 24px;
-  font-size: 16px;
-  border-radius: 5px;
+
+  border-radius: 8px;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.botao-voltar:hover {
+  background-color: #1d4ed8;
 }
 
 .detalhes {
-  max-width: 900px;
+  max-width: 1000px;
+
   margin: 0 auto;
+
   display: flex;
   flex-direction: column;
-  gap: 30px;
+
+  gap: 40px;
 }
 
-.filme {
+.titulo-principal {
+  text-align: center;
+}
+
+.titulo-principal h1 {
+  font-size: 3rem;
+
+  margin-bottom: 10px;
+}
+
+.titulo-principal p {
+  color: #94a3b8;
+
+  font-size: 1.2rem;
+}
+
+.top3 {
   display: flex;
+  flex-direction: column;
+
   gap: 30px;
-  align-items: flex-start;
 }
 
-.box img {
-  width: 250px;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+.top3 h2 {
+  text-align: center;
+
+  font-size: 2.3rem;
 }
 
-.box h1 {
-  font-size: 2.5rem;
-  margin-top: 0;
+.card-filme {
+  display: flex;
+
+  gap: 25px;
+
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  border: 2px solid #2563eb;
+
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.3);
+
+  transition: 0.3s;
+}
+
+.card-filme:hover {
+  transform: scale(1.02);
+}
+
+.card-filme img {
+  width: 220px;
+
+  border-radius: 15px;
+
+  transition: 0.3s;
+}
+
+.card-filme img:hover {
+  transform: scale(1.05);
+}
+
+.conteudo-card {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.conteudo-card h1 {
+  margin: 0;
+
   color: #f8fafc;
 }
 
-.curiosidade-box {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 20px;
-  border-radius: 15px;
-  border: 5px solid #204e97;
+.conteudo-card p {
+  color: #cbd5e1;
+
+  line-height: 1.6;
 }
 
-.trailer-box h3 {
-  margin-bottom: 15px;
+.outros-filmes {
+  background: rgba(255, 255, 255, 0.05);
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  border: 2px solid #2563eb;
+}
+
+.outros-filmes h2 {
+  margin-top: 0;
+}
+
+.outros-filmes ul {
+  padding-left: 20px;
+}
+
+.outros-filmes li {
+  margin-bottom: 10px;
+
+  color: #cbd5e1;
+}
+
+.trailer-box {
+  background: rgba(255, 255, 255, 0.05);
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  border: 2px solid #2563eb;
+}
+
+.trailer-box h2 {
+  text-align: center;
+
+  margin-bottom: 20px;
 }
 
 .video {
-  position: relative;
-  width: 100%;
-  max-width: 600px;
-  border-radius: 15px;
-  overflow: hidden;
-  cursor: pointer;
-  border-radius: 10px;
   display: flex;
+
   justify-content: center;
 }
 
-.play-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  background: rgba(0, 0, 0, 0.7);
-  padding: 10px 20px;
-  border-radius: 50%;
+video {
+  border-radius: 15px;
+
+  max-width: 100%;
+}
+
+.footer {
+  text-align: center;
+
+  color: #94a3b8;
+
+  margin-top: 20px;
+}
+
+.Trailer {
+  text-align: center;
+  font-size: 30px;
 }
